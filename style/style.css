@@ -5,4 +5,24 @@
     margin: 0;
     box-sizing: border-box;
 }
-/* body section (background) */
+/* Font section (Vazir) */
+@font-face {
+    font-family: vazir-regular;
+    src: url("../fonts/Vazir-Regular-UI.ttf") format("truetype");
+    src: url("../fonts/Vazir-Regular-UI.eot") format("eot");
+    src: url("../fonts/Vazir-Regular-UI.woff") format("woff");
+    src: url("../fonts/Vazir-Regular-UI.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 400;
+  }
+  /* Bold Section */
+  @font-face {
+    font-family: vazir-bold;
+    src: url("../fonts/Vazir-Bold-UI.ttf") format("truetype");
+    src: url("../fonts/Vazir-Bold-UI.eot") format("eot");
+    src: url("../fonts/Vazir-Bold-UI.woff") format("woff");
+    src: url("../fonts/Vazir-Bold-UI.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 700;
+  }
+  /* END OF FONT SECTION!!! */
