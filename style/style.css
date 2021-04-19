@@ -1,28 +1,40 @@
 /* cascade style sheet file of Berlin */
 /* common element*/
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 /* Font section (Vazir) */
 @font-face {
-    font-family: vazir-regular;
-    src: url("../fonts/Vazir-Regular-UI.ttf") format("truetype");
-    src: url("../fonts/Vazir-Regular-UI.eot") format("eot");
-    src: url("../fonts/Vazir-Regular-UI.woff") format("woff");
-    src: url("../fonts/Vazir-Regular-UI.woff2") format("woff2");
-    font-style: normal;
-    font-weight: 400;
-  }
-  /* Bold Section */
-  @font-face {
-    font-family: vazir-bold;
-    src: url("../fonts/Vazir-Bold-UI.ttf") format("truetype");
-    src: url("../fonts/Vazir-Bold-UI.eot") format("eot");
-    src: url("../fonts/Vazir-Bold-UI.woff") format("woff");
-    src: url("../fonts/Vazir-Bold-UI.woff2") format("woff2");
-    font-style: normal;
-    font-weight: 700;
-  }
-  /* END OF FONT SECTION!!! */
+  font-family: vazir-regular;
+  src: url("../fonts/Vazir-Regular-UI.ttf") format("truetype");
+  src: url("../fonts/Vazir-Regular-UI.eot") format("eot");
+  src: url("../fonts/Vazir-Regular-UI.woff") format("woff");
+  src: url("../fonts/Vazir-Regular-UI.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+}
+/* Bold Section */
+@font-face {
+  font-family: vazir-bold;
+  src: url("../fonts/Vazir-Bold-UI.ttf") format("truetype");
+  src: url("../fonts/Vazir-Bold-UI.eot") format("eot");
+  src: url("../fonts/Vazir-Bold-UI.woff") format("woff");
+  src: url("../fonts/Vazir-Bold-UI.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 700;
+}
+/* END OF FONT SECTION!!! */
+/* body and background section */
+body {
+  direction: rtl;
+  background: rgb(177, 147, 203);
+  background: linear-gradient(
+    291deg,
+    rgba(177, 147, 203, 1) 27%,
+    rgba(96, 228, 222, 1) 100%
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
