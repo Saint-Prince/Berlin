@@ -1,0 +1,8 @@
+/* cascade style sheet file of Berlin */
+/* common element*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* body section (background) */
