@@ -46,6 +46,13 @@ a {
 a:hover{
     color: gold;
 }
+/* left corner image */
+.login-img{
+    z-index: -1;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
 /* nav seciton */
 .navbar{
    display: flex;
@@ -76,4 +83,20 @@ font-size:20px;
 }
 .nav-link{
     color: aliceblue;
+}
+/* loggin links div section */
+.login-links{
+    display: flex;
+    position: fixed;
+    left: 0;
+    align-items: center;
+}
+/* loggin links a tag */
+.login-btn{
+    list-style: none;
+    font-family: vazir-regular;
+    font-size: 22px;
+    color:aliceblue;
+    margin-left: 100px;
+    margin-top: 15px;
 }
