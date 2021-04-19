@@ -38,3 +38,42 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+/* end of body section */
+/* a common element */
+a {
+    text-decoration: none;
+}
+a:hover{
+    color: gold;
+}
+/* nav seciton */
+.navbar{
+   display: flex;
+   margin: 0 auto;
+   align-items: center;
+   justify-content: flex-start;
+   column-gap: 30px;
+}
+/* logo section */
+.logo{
+    width: 91px;
+    height: 78px;
+}
+.nav{
+    list-style:none;
+    display: inline-block;
+}
+.nav-item{
+    display: inline-block;
+    font-family: vazir-regular;
+    font-size: 18px;
+    margin-right: 30px;
+
+}
+/* fitst child font size increment */
+.nav-item:nth-child(1){
+font-size:20px;
+}
+.nav-link{
+    color: aliceblue;
+}
