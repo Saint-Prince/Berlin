@@ -41,62 +41,125 @@ body {
 /* end of body section */
 /* a common element */
 a {
-    text-decoration: none;
+  text-decoration: none;
+  font-family: vazir-regular;
 }
-a:hover{
-    color: gold;
+p {
+  font-family: vazir-regular;
+  color: aliceblue;
+}
+a:hover {
+  color: gold;
 }
 /* left corner image */
-.login-img{
-    z-index: -1;
-    position: fixed;
-    left: 0;
-    top: 0;
+.login-img {
+  z-index: -1;
+  position: fixed;
+  left: 0;
+  top: 0;
 }
 /* nav seciton */
-.navbar{
-   display: flex;
-   margin: 0 auto;
-   align-items: center;
-   justify-content: flex-start;
-   column-gap: 30px;
+.navbar {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: flex-start;
+  column-gap: 30px;
 }
 /* logo section */
-.logo{
-    width: 91px;
-    height: 78px;
+.logo {
+  width: 91px;
+  height: 78px;
 }
-.nav{
-    list-style:none;
-    display: inline-block;
+.nav {
+  list-style: none;
+  display: inline-block;
 }
-.nav-item{
-    display: inline-block;
-    font-family: vazir-regular;
-    font-size: 18px;
-    margin-right: 30px;
-
+.nav-item {
+  display: inline-block;
+  font-family: vazir-regular;
+  font-size: 18px;
+  margin-right: 30px;
 }
 /* fitst child font size increment */
-.nav-item:nth-child(1){
-font-size:20px;
+.nav-item:nth-child(1) {
+  font-size: 20px;
 }
-.nav-link{
-    color: aliceblue;
+.nav-link {
+  color: aliceblue;
 }
 /* loggin links div section */
-.login-links{
-    display: flex;
-    position: fixed;
-    left: 0;
-    align-items: center;
+.login-links {
+  display: flex;
+  position: fixed;
+  left: 0;
+  align-items: center;
 }
 /* loggin links a tag */
-.login-btn{
-    list-style: none;
-    font-family: vazir-regular;
-    font-size: 22px;
-    color:aliceblue;
-    margin-left: 100px;
-    margin-top: 15px;
+.login-btn {
+  list-style: none;
+  font-family: vazir-regular;
+  font-size: 22px;
+  color: aliceblue;
+  margin-left: 100px;
+  margin-top: 15px;
+}
+/* Main page body Container section */
+.container {
+  width: 100vw;
+  height: 90vh;
+  display: grid;
+  grid-template-columns: repeat(3, 650px);
+  grid-template-rows: repeat(2, 1fr);
+  /* gap: 10px; */
+  grid-auto-rows: minmax(100px, auto);
+}
+/* hello messge section */
+.hello-message {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  align-self:center;
+  justify-self: flex-start;
+  margin-right: 20px;
+  font-family: vazir-regular;
+  color: aliceblue;
+  font-size: 56px;
+  text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.75);
+}
+/* name section */
+.name {
+  width: 398px;
+  height: 20px;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  color: aliceblue;
+  align-self: center;
+  justify-self: center;
+  justify-content: center;
+  padding-right: 70px;
+  padding-top: 85px;
+}
+/* name p tag seciton */
+.name-text {
+  display: flex;
+  line-height: 70px;
+  background-color: #da9a5c;
+  font-size: 48px;
+  justify-content: center;
+  text-align: justify;
+  border-radius: 15px;
+  padding-bottom: 10px;
+  text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.38);
+}
+/* third item (Hastam) Seciton */
+.third-item{
+  display: flex;
+  grid-column: 1/2;
+  grid-row: 1/1;
+  justify-content: flex-end;
+  align-self: flex-end;
+  font-size: 40px;
+  text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.75);
+  padding-bottom: 50px  ;
+  padding-left: 20px;
 }
