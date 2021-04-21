@@ -110,7 +110,7 @@ a:hover {
   height: 90vh;
   display: grid;
   grid-template-columns: repeat(3,1fr);
-  grid-template-rows: repeat(2,2fr);
+  grid-template-rows: repeat(2,1fr);
   /* gap: 10px; */
   grid-auto-rows: minmax(100px, auto);
 }
@@ -170,9 +170,9 @@ a:hover {
   height: 77px;
   background-color:#656eee;
   grid-column: 2/3;
-  grid-row: 1/2;
+  grid-row: 2/2;
   display: flex;
-  align-self: flex-end;
+  align-self: flex-start ;
   justify-self: center  ;
   border-radius: 10px;
   justify-content: center;
