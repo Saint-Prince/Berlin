@@ -160,8 +160,8 @@ a:hover {
   align-self: flex-end;
   font-size: 40px;
   text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.75);
-  padding-bottom: 50px  ;
-  padding-left: 20px;
+  padding-bottom: 5px  ;
+ 
 }
 /* end of right corner items */
 /* my resume button section */
@@ -186,9 +186,6 @@ a:hover {
 .face{
   grid-column: 3/3;
   grid-row:2/2;
-  /* position: fixed;
-  left: 0;
-  bottom: 0; */
   align-self: flex-end;
   justify-self: flex-end;
 }
