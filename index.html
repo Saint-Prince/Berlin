@@ -7,53 +7,44 @@
     <title>Berlin!</title>
     <!-- css file link -->
     <link rel="stylesheet" href="style/style.css" />
+    <!--Fontaswesome link  -->
+    <script
+      src="https://kit.fontawesome.com/37eaddf192.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <!-- navbar section -->
-    <!-- left corner image -->
-    <img src="img/login-2.png" class="login-img" alt="" />
-    <!-- navbar div section -->
-    <div class="navbar">
-      <!-- logo image -->
-      <a href="index.html" class="nav-link"
-        ><img src="img/mylogo.png" class="logo" alt=""
-      /></a>
-      <ul class="nav">
-        <li class="nav-item">
-          <a href="index.html" class="nav-link">صفحه اصلی</a>
-        </li>
-        <li class="nav-item"><a href="#" class="nav-link">وبلاگ</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">درباره من</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">تماس با من</a></li>
-      </ul>
-      <!-- login link section -->
-      <div class="login-links">
-        <!-- imge of corner section -->
-        <ul class="login-btn">
-          <!-- for positioning i set thie 1 id! -->
-          <li class="loggin-item">
-            <a href="#" class="login-btn" id="login-link">ورود / ثبت نام</a>
-          </li>
+    <!-- header navbar Start -->
+    <header>
+      <nav>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn"><i class="fas fa-bars"></i></label>
+        <label class="logo"
+          ><a href="index.html"
+            ><img class="logo" src="img/mylogo.png" alt="" /></a
+        ></label>
+        <ul>
+          <li><a class="active" href="index.html">صفحه اصلی</a></li>
+          <li><a href="#">وبلاگ</a></li>
+          <li><a href="#">درباره من</a></li>
+          <li><a href="#">تماس با من</a></li>
+          <li><a class="login-signup" href="#">ورود/ثبت نام</a></li>
         </ul>
+      </nav>
+      <!-- loginlinks -->
+      <div class="login">
+        <a class="login-txt" href="#">ورود/ ثبت نام</a>
+        <img class="login-img" src="img/login-mobile.png" alt="404 Not Found!">
       </div>
-    </div>
-    <!-- End of nav section -->
-    <!-- Main page body section -->
-    <!-- Container has a 5 rows and columns -->
+    </header>
+    <!-- End of Header and nav section -->
+    <!-- Container section -->
     <div class="container">
-      <!-- hello message seciton -->
-      <div class="hello-message"><p>سلام من</p></div>
-      <!-- name div (orange!) -->
-      <div class="name"><p class="name-text">مهدی صادقی</p></div>
-      <div class="third-item"><p class="thir-text">هستم</p></div>
-      <div class="my-resume">
-        <a
-          href="https://s19.picofile.com/d/8431446342/e865f08f-1dfe-4da4-b5e1-e431193232f1/myresume.pdf"
-          class="resume-text"
-          >رزومه من</a
-        >
-      </div>
-      <div class="face"><img src="img/face.png" alt=""></div>
-    </div>
+        <h1>سلام من</h1>
+        <!-- name and text section -->
+          <div class="name"><p>مهدی صادقی</p></div>
+          <!-- hastam Section -->
+          <div class="left-text"><p>هستم!</p></div>
+    </div>  
   </body>
 </html>
