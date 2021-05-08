@@ -96,8 +96,9 @@ a:hover {
   }
 }
 @media screen and (max-width: 558px) {
-  .logo{
+  .logo {
     width: 100px;
+    height: 80px;
     float: right;
     position: fixed;
     right: 0;
@@ -106,7 +107,7 @@ a:hover {
     display: block;
     position: fixed;
     float: right;
-    margin-right: 140px;
+    margin-right: 110px;
     margin-top: 2px;
     margin-left: 20px;
   }
@@ -155,7 +156,7 @@ a:hover {
     position: fixed;
     padding-top: 2px;
     left: 0;
-    margin-top: 25px;
+    margin-top: 27px;
     margin-left: 5px;
     font-size: 18px;
     text-align: center;
@@ -169,11 +170,12 @@ a:hover {
     grid-template-rows: repeat(2, 1fr);
     grid-auto-rows: minmax(250px, auto);
   }
-  .container h1 {
+  .container p {
     grid-column: 1/2;
     grid-row: 1/2;
     align-self: center;
     padding-right: 10px;
+    font-size: 30px;
   }
   /* name section (orange box!) */
   .name {
@@ -193,7 +195,7 @@ a:hover {
     padding-top: 7px;
   }
   /* left text sction (hastam) */
-  .left-text{
+  .left-text {
     grid-column: 1/2;
     grid-row: 1/2;
     justify-self: flex-end;
@@ -203,6 +205,19 @@ a:hover {
     font-size: 30px;
     padding-bottom: 40px;
     padding-left: 20px;
+  }
+  /* face section */
+  .face {
+    width: 50%;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
+  .face img {
+    width: 100%;
+    height: 20%;
   }
 }
 @media screen and (min-width: 1024px) {
