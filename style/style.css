@@ -86,15 +86,93 @@ a:hover {
 #check {
   display: none;
 }
-/* media query for menu */
-@media screen and (max-width: 952px) {
+/* tablet size media seciton */
+@media screen and (min-width: 751px) {
+  /* nav seciton */
   .logo {
-    width: 120px;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    right: 0;
+  }
+
+  .checkbtn {
+    display: none;
+  }
+  nav ul {
+    margin-right: 80px;
   }
   nav ul li a {
-    font-size: 16px;
+    font-size: 0.8rem;
+  }
+  .login {
+    display: inline-flex;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 300px;
+    height: 300px;
+    z-index: -1;
+  }
+  .login-txt {
+    background-color: #6ed6db;
+    font-size: 14px;
+    position: fixed;
+    left: 0;
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 120px;
+    height: 25px;
+    text-align: center;
+    padding-top: 2.5px;
+    border-radius: 9px;
+  }
+  /* end of nav section */
+  .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 100vw;
+    height: 85vh;
+  }
+  .container p {
+    font-size: 1.7rem;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    justify-self: start;
+    margin-right: 20px;
+    margin-top: 50px;
+  }
+  .name {
+    display: inline-block;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-right: 100px;
+    align-self: center;
+    width: 30%;
+    padding-bottom: 50px;
+  }
+  .name p {
+    width: 100%;
+    background-color: #da9a5c;
+    height: 45px;
+    text-align: center;
+    border-radius: 6px;
+    padding-top: 5px;
+  }
+  .left-text {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    justify-self: center;
+    align-self: end;
+    padding-bottom: 60px;
+    padding-right: 30px;
+  }
+  .face {
+    display: none;
   }
 }
+
 @media screen and (max-width: 750px) {
   .logo {
     width: 100px;
@@ -234,6 +312,7 @@ a:hover {
     display: flex;
     width: 40%;
     height: 100%;
+    min-height: 100%;
     grid-row: 2/3;
     align-self: center;
     padding-right: 1rem;
@@ -246,50 +325,10 @@ a:hover {
     font-size: 1.8rem;
     align-self: center;
     background-color: slateblue;
-    padding-bottom: 5px;
+    padding-bottom: 7px;
   }
 }
-/* tablet size media seciton */
-@media screen and (max-width: 1023px) {
-  .logo {
-    width: 80px;
-    height: 80px;
-    position: absolute;
-    right: 0;
-  }
-  .checkbtn {
-    display: none;
-  }
-  nav ul {
-    margin-right: 80px;
-  }
-  nav ul li a {
-    font-size: 0.8rem;
-  }
-  .login{
-    display: inline-flex;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 300px;
-    height: 300px;
-    z-index: -1;
-  }
-  .login-txt{
-    background-color:#6ed6db ;
-    font-size: 14px;
-    position: fixed;
-    left: 0;
-    margin-top: 30px;
-    margin-left: 30px;
-    width: 120px;
-    height: 25px;
-    text-align: center;
-    padding-top: 2.5px;
-    border-radius:9px ;
-  }
- 
-}
+
 @media screen and (min-width: 1024px) {
   .login-signup {
     display: none;
@@ -314,5 +353,25 @@ a:hover {
     border-radius: 9px;
     text-align: center;
     align-content: center;
+  }
+}
+/* xsm mobile media query */
+@media screen and (max-width: 326px) {
+  .container p {
+    font-size: 25px;
+  }
+  .name p {
+    font-size: 25px;
+    margin-top: -10px;
+  }
+  .left-text{
+    margin-right: 50px;
+    margin-top: 210px;
+  }
+  .left-text p {
+    font-size: 25px;
+  }
+  .my-resume a{
+    font-size: 20px;
   }
 }
