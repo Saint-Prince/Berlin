@@ -103,7 +103,7 @@ a:hover {
     margin-right: 80px;
   }
   nav ul li a {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
   .login {
     display: inline-flex;
@@ -172,15 +172,15 @@ a:hover {
     padding-left: 15%;
   }
   /* my resume seciton */
-  .my-resume{
+  .my-resume {
     display: flex;
     justify-content: center;
-    width:25%;
+    width: 25%;
     height: 18%;
     justify-self: center;
     text-align: center;
   }
-  .my-resume a{
+  .my-resume a {
     font-size: 2rem;
     width: 100%;
     height: 100%;
@@ -188,7 +188,19 @@ a:hover {
     border-radius: 6px;
   }
   .face {
-    display: none;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    grid-row: 2/3;
+    width: 30%;
+    height: 40%;
+  }
+  .face img {
+    max-width: 250px;
+    margin-top: 3%;
+    width: 100%;
+    height: 100%;
+    max-height: 300px;
   }
 }
 
@@ -323,7 +335,7 @@ a:hover {
   .face img {
     width: 100%;
     height: 75%;
-    max-width: 280px;
+    max-width: 240px;
     max-height: 200px;
   }
   /* my resume seciton */
@@ -383,14 +395,14 @@ a:hover {
     font-size: 25px;
     margin-top: -10px;
   }
-  .left-text{
+  .left-text {
     margin-right: 50px;
     margin-top: 210px;
   }
   .left-text p {
     font-size: 25px;
   }
-  .my-resume a{
+  .my-resume a {
     font-size: 20px;
   }
 }
