@@ -359,28 +359,36 @@ a:hover {
     padding-bottom: 7px;
   }
 }
-
+/* Desktop size section */
 @media screen and (min-width: 1024px) {
-  .login-signup {
+  /* nav seciton */
+  .logo {
+    width: 80px;
+  }
+  .checkbtn {
     display: none;
   }
-  .login {
-    font-size: 22px;
-    display: inline-flex;
-    width: 450px;
-    height: 450px;
-    position: fixed;
-    left: 0;
-    top: 0;
+  header nav ul li a {
+    font-size: 1.1rem;
+  }
+  .login-signup{
+    display: none;
+  }
+  /* login seciton */
+  .login-img {
+    width: 100%;
+    height: 100%;
   }
   .login-txt {
+    font-size: 1rem;
     position: fixed;
     left: 0;
     margin-left: 80px;
-    margin-top: 30px;
+    margin-top: 28px;
     background-color: #6ed6db;
     width: 120px;
-    height: 35px;
+    padding-top: 5px;
+    height: 30px;
     border-radius: 9px;
     text-align: center;
     align-content: center;
