@@ -368,6 +368,10 @@ a:hover {
   .checkbtn {
     display: none;
   }
+  header nav ul li {
+    margin-right: 1rem;
+    text-shadow: -7px 1px 20px #000000;
+  }
   header nav ul li a {
     font-size: 1.1rem;
   }
@@ -392,14 +396,25 @@ a:hover {
   .login-txt {
     font-size: 1.2rem;
     position: fixed;
-    top: 0;
+    top: -7px;
     left: 0;
-    margin-left: 80px;
+    margin-left: 1rem;
     background-color: #6ed6db;
-    width: 8%;
+    width: 15%;
     padding-top: 5px;
     height: 40px;
     border-radius: 9px;
+    text-shadow: -7px 1px 20px #000000; 
+  }
+  /* git logo seciton */
+  .git-logo {
+    width: 1rem;
+    padding-top: .3rem;
+    padding-left: 1.5rem;
+    height: 2rem;
+  }
+  .git-logo:hover{
+    color: gold;
   }
   /* xsm mobile media query */
   @media screen and (max-width: 326px) {
