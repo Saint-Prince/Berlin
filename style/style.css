@@ -404,17 +404,57 @@ a:hover {
     padding-top: 5px;
     height: 40px;
     border-radius: 9px;
-    text-shadow: -7px 1px 20px #000000; 
+    text-shadow: -7px 1px 20px #000000;
   }
   /* git logo seciton */
   .git-logo {
     width: 1rem;
-    padding-top: .3rem;
+    padding-top: 0.3rem;
     padding-left: 1.5rem;
     height: 2rem;
   }
-  .git-logo:hover{
+  .git-logo:hover {
     color: gold;
+  }
+  /* end of nav section */
+  /* container section */
+  .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .container > p {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    justify-self: start;
+    font-size: 2.5rem;
+  }
+  .container > div[class="name"] {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    justify-self: start;
+    width: 38%;
+    height: 45%;
+  }
+  .container > div > p {
+    height: 50%;
+    padding-top: .3rem;
+  }
+  /* face seciton */
+  .face > img {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+  }
+  /* resume section */
+  .my-resume {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    justify-self: center;
+    width: 15%;
+    height: 15%;
+    padding-top: 0.5rem;
+    margin-left: 5rem;
   }
   /* xsm mobile media query */
   @media screen and (max-width: 326px) {
