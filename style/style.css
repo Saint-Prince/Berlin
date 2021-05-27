@@ -435,14 +435,26 @@ a:hover {
     font-size: 2.5rem;
   }
   .container > div[class="name"] {
+    width: 42%;
+    height: 120px;
+    padding-right: 20px;
     grid-column: 1/2;
     grid-row: 1/2;
     justify-self: start;
   }
   .container > div[class="name"] > p {
+    width: 95%;
+    height: 80%;
     line-height: 50px;
     font-size: 2rem;
+    margin: 0;
+    transition: width 1s ease-in,height 1s ease-in;
   }
+  .container > div[class="name"] > p:hover{
+    width: 100%;
+    height: 100%;
+  }
+
   /* face seciton */
   .face > img {
     width: 50%;
